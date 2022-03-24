@@ -1,0 +1,47 @@
+*{
+    font-family: monospace, "sans-serif";
+}
+
+h1{
+    display: block;
+    text-align: center;
+    color: #0057f8;
+}
+
+#f-main{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.temp-input, .temp-option{
+    margin: 10px 33px;
+    transform: scale(1.5);
+    border-radius: 10px;
+}
+
+.temp-input{
+    text-align: end;
+    border: 2px solid #0057f8;
+}
+
+.temp-input:focus{
+    outline: none;
+    border-color: red;
+}
+
+.temp-input::-webkit-outer-spin-button, .temp-input::-webkit-inner-spin-button{
+    margin-left: 5px;
+}
+
+.temp-option{
+    background-color: #00001d;
+    color: white;
+    border: 2px solid #0057f8;
+}
+
+.temp-option:focus{
+    border-color: red;
+}
